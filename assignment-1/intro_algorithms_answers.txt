@@ -1,0 +1,39 @@
+1. making toast
+
+def toast(bread)
+
+IF the bread container has bread
+    put bread in toaster
+    set toaster to desired toast setting
+    push lever to lower bread into toaster and start toasting
+    when toaster is finished toasting return toast
+ELSE
+    return "No Bread to turn into toast"
+END IF
+end
+
+2. pumping up a soccer ball
+    
+def pump(ball)
+    IF ball needs inflation
+        find hole
+        insert needle
+        WHILE ball is not yet fully inflated
+        pump air into ball
+        ENDWHILE
+        return ball
+    ELSE
+        return "Ball pumped"
+    END IF
+end
+    
+3. brushing teeth
+
+def brush_teeth(toothpaste, toothbrush)
+
+take toothbrush and apply toothpaste to toothbrush
+put toothbrush in mouth
+WHILE teeth are not clean
+    brush teeth
+ENDWHILE
+end
