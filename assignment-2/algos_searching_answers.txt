@@ -1,0 +1,12 @@
+1. The linear search would take 7 iterations to find G
+2. The binary search would take 3 iterations to find G
+3. fib(10) = 55
+   fib(11) = 89
+   fib(12) = 144
+   
+1. if given an unsorted collection I would use a linear search. a binary search would only be able to find the 
+sought after item by chance and may skip over the desired item in its search. I think I would use an iterative search
+because in general iteration requires fewer proocesses than iteration to complete.
+
+2. if given a sorted collection I would use binary search. Binary search will require fewer checks than a linear search and 
+therefore is faster. I would use an iteration for the same reason as stated above.
