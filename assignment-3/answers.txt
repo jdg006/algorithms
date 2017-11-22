@@ -1,0 +1,5 @@
+5. After comparing Heap Sort, Bucket Sort, and Quick Sort using ruby Benchmark I was able to see that Bucket Sort and Quick Sort were the two faster sorting algorithms for 
+sorting an array of 50 numbers. I found that with each subsequent test the results would vary, but the only consistent result was that the heap sort method took roughly three
+times as long as Quick Sort and Bucket Sort. Bucket Sort was consistently faster than quick sort when the size of the array to be sorted increased. This could be because the
+quick sort algorithm that I implemented used recursion whereas the bucket sort algorithm that I used did not. Ruby seems to be a language that is optimized for iterative solutions
+more so than recursive ones. 
