@@ -1,0 +1,14 @@
+1. An algorithm that has O(1) is a Formula 1 race car and an algorithm that has O(2n) is a square wheeled tricycle.
+2. The best case scenario for a binary search is 1 check to find the specified value.
+3. The worst case scenario for binary search would be the amount of times that you can evenly divide the amount of numbers
+   in the array by 2 + 1
+4. The bound case scenarion is roughly mid-way between the worst case scenario and the best case scenario, but runs closer to
+   the worst case scenario.
+5. Included is submission
+6. The limit of 2^n as n approaches infinity is infinity
+7. O(2^n)
+8. Included is submission
+9. Included is submission
+10. O(log n)
+11. O(1)
+12. 0(log n)
