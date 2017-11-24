@@ -1,0 +1,13 @@
+1. O(1) beacuse this operation will take the same amount of time to execute no matter the number given.
+2. O(n) because this operation iterates through the entire collection, the larger the collection the longer 
+ The operation will take to finish. It will increase constantly by the amount of items in the collection.
+3. O(n) if n is the total amount of items in the subcollections
+4. O(2^n). If n is 3 then this algorithm will take 5 iterations to complete. If n is 10 it takes 177 iterations
+  to complete. The number of iterations it takes to complete is not increasing by a constant amount every time n is increased,
+  instead the number of iterations it takes to complete increases by an ever increasing amount every time n is increased.
+  This means that the algorithm will run in O(2^n)
+5. O(n) because this operation iterates through the entire collection, the larger the collection the longer 
+ The operation will take to finish. It will increase constantly by the amount of items in the collection.
+6. O(n^2). If n is 5 then the algorith will take 10 iterations to complete and if n is 6 it will take 15 iterations to complete.
+ This means that the iterations are increasing at a rate of 1/2(n)(n-1) which can be represented as (1/2)n^2 - (1/2)n. You would 
+ use the n^2 to determine the algorithm will run in O(n^2).
